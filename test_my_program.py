@@ -7,6 +7,7 @@ class TestPrintMyProgram(unittest.TestCase):
     def test_print_my_program(self):
         result = print_my_program()
         self.assertEqual(result, "Hello my program!")
+        self.assertEqual(False, True)
 
 
 if __name__ == "__main__":
